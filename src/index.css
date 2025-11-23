@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles (no @apply, keep it simple) */
+body {
+  color: #0f172a; /* slate-900 */
+  background-color: #e2e8f0; /* bg-slate-100 */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
