@@ -5,17 +5,31 @@ const services = [
   {
     title: "Product & app development",
     body: "From first whiteboard sketch to production deploy. React frontends, .NET and Node backends, Postgres, and cloud infrastructure that won’t crumble when real users show up.",
-    tags: ["React + TypeScript", ".NET APIs", "Postgres", "Cloud"],
+    tags: [
+      "React + TypeScript",
+      "Vue3 + TypeScript",
+      "Razer",
+      ".NET Core",
+      ".NET APIs",
+      "SQL Server",
+      "Postgres",
+      "Cloud",
+    ],
   },
-  {
-    title: "AI & LLM integration",
-    body: "We design practical AI features—agents, assistants, and workflows that improve your product instead of bloating it. Not every button needs “AI” slapped on it.",
-    tags: ["OpenAI / LLMs", "Agents & tools", "Content workflows"],
-  },
+  // {
+  //   title: "AI & LLM integration",
+  //   body: "We design practical AI features—agents, assistants, and workflows that improve your product instead of bloating it. Not every button needs “AI” slapped on it.",
+  //   tags: ["OpenAI / LLMs", "Agents & tools", "Content workflows"],
+  // },
   {
     title: "Architecture & technical leadership",
     body: "Need a second brain on your system design, roadmap, or hiring? We can review, advise, and help you avoid “we need to rewrite everything” in 18 months.",
-    tags: ["System design", "Codebase audits", "Fractional leadership"],
+    tags: [
+      "System architecture & design",
+      "Database architecture & design",
+      "Codebase audits",
+      "Fractional leadership",
+    ],
   },
   {
     title: "Rescue missions",

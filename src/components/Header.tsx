@@ -1,10 +1,10 @@
 import React from "react";
 
 const navItems = [
-  { label: "About", href: "#about" },
-  { label: "Services", href: "#services" },
+  // { label: "About", href: "#about" },
+  // { label: "Services", href: "#services" },
   { label: "Work", href: "#work" },
-  { label: "Contact", href: "#contact" },
+  // { label: "Contact", href: "#contact" },
 ];
 
 const Header: React.FC = () => {
@@ -25,7 +25,7 @@ const Header: React.FC = () => {
               Byte Craft Software
             </span>
             <span className="text-[11px] md:text-xs text-slate-500">
-              Making bad ideas ship-ready since 2025.
+              Bringing great ideas to life since 2025.
             </span>
           </div>
         </div>
@@ -42,20 +42,20 @@ const Header: React.FC = () => {
           ))}
         </nav>
 
-        <a
+        {/* <a
           href="#contact"
           className="hidden md:inline-flex items-center justify-center px-3 py-1.5 text-xs font-semibold rounded-full bg-brand-orange text-white shadow-brand-soft hover:translate-y-[1px] transition-transform"
         >
           Let&apos;s Talk
-        </a>
+        </a> */}
 
         {/* Mobile: just a Contact pill */}
-        <a
+        {/* <a
           href="#contact"
           className="md:hidden inline-flex items-center justify-center px-3 py-1.5 text-xs font-semibold rounded-full bg-brand-orange text-white shadow-brand-soft"
         >
           Contact
-        </a>
+        </a> */}
       </div>
     </header>
   );

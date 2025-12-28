@@ -6,25 +6,25 @@ const projects = [
     name: "Dojo Companion",
     role: "Architecture, full-stack development",
     summary:
-      "A React + TypeScript SPA with Supabase Postgres, Drizzle ORM, and Cloudflare Pages/Workers. Manages dojo curriculum, flashcards, and member data with a deep unlock system.",
+      "A web app that manages dojo curriculum, requirements, flashcards, and member data.",
     status: "In active development",
   },
+  // {
+  //   name: "Study Companion",
+  //   role: "Product design, frontend development",
+  //   summary:
+  //     "Family-focused study app built on the same architecture as Dojo Companion. Flashcards, progression, and unlock paths tuned for real-world homework battles.",
+  //   status: "In active development",
+  // },
+  // {
+  //   name: "Time Tracker Pro",
+  //   role: "Product vision, system design",
+  //   summary:
+  //     "A modern time tracking and reporting platform, built to be the tool we actually wish existed. Strong focus on reporting, ergonomics, and—shockingly—telling the truth.",
+  //   status: "Planned / early-stage",
+  // },
   {
-    name: "Study Companion",
-    role: "Product design, frontend development",
-    summary:
-      "Family-focused study app built on the same architecture as Dojo Companion. Flashcards, progression, and unlock paths tuned for real-world homework battles.",
-    status: "In active development",
-  },
-  {
-    name: "Time Tracker Pro",
-    role: "Product vision, system design",
-    summary:
-      "A modern time tracking and reporting platform, built to be the tool we actually wish existed. Strong focus on reporting, ergonomics, and—shockingly—telling the truth.",
-    status: "Planned / early-stage",
-  },
-  {
-    name: "Cronin Smart Litter Box",
+    name: "Smart Litter Box",
     role: "Hardware + software prototyping",
     summary:
       "IoT pet care system with sensors, data tracking, and a cloud dashboard. Because if you can measure it… you can over-engineer it.",

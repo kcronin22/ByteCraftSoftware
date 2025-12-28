@@ -15,9 +15,8 @@ const Hero: React.FC = () => {
               <span className="text-brand-orange">.</span>
             </h1>
             <h2 className="text-base md:text-lg text-slate-700 mb-6">
-              We design and build web apps, APIs, and AI-powered tools that
-              actually ship. No buzzword salad, just solid engineering—and a bit
-              of mischief.
+              We design and build web apps, APIs that actually ship. No buzzword
+              salad, just solid engineering—and a bit of mischief.
             </h2>
 
             <div className="flex flex-wrap gap-3 mb-5">
@@ -67,7 +66,7 @@ const Hero: React.FC = () => {
               <p className="mb-1 opacity-70">House rule</p>
               <p className="font-semibold text-sm">
                 If we don&apos;t think it&apos;s a good idea, we&apos;ll say so.
-                You still get final call. (Germ&apos;s Law, right?)
+                You still get final call. (Byte Craft&apos;s Law, right?)
               </p>
             </div>
           </div>
