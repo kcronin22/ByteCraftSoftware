@@ -11,16 +11,7 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <Section
-      id="contact"
-      eyebrow="Let’s talk"
-      title="Tell us what you’re trying to build."
-    >
-      <p className="mb-4">
-        Give us the short version of your project, timeline, and where things
-        are right now. We&apos;ll follow up with honest thoughts and a clear
-        next step—no sales call ambush.
-      </p>
+    <Section id="contact" eyebrow="Let’s talk" title="Send us a message.">
       <form
         onSubmit={handleSubmit}
         className="bg-white/80 border border-slate-200 rounded-2xl p-4 md:p-5 shadow-sm space-y-3"

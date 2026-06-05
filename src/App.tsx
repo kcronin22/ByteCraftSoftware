@@ -1,22 +1,25 @@
 import React from "react";
 import Header from "./components/Header";
 // import Hero from "./components/Hero";
-// import About from "./components/About";
+import About from "./components/About";
 // import Services from "./components/Services";
 import Portfolio from "./components/Portfolio";
-// import Contact from "./components/Contact";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 const App: React.FC = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-slate-100">
+    <div
+      className="min-h-screen flex flex-col bg-slate-100"
+      style={{ paddingBottom: "var(--footer-h, 0px)" }}
+    >
       <Header />
       <main className="flex-1">
-        {/* <Hero /> 
+        {/* <Hero />
+        <Services /> */}
         <About />
-        <Services />*/}
         <Portfolio />
-        {/* <Contact /> */}
+        <Contact />
       </main>
       <Footer />
     </div>

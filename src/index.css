@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 /* Global styles (no @apply, keep it simple) */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: #0f172a; /* slate-900 */
   background-color: #e2e8f0; /* bg-slate-100 */
